@@ -77,10 +77,13 @@ The Ansible playbook should be defined with the following sections:
       service:
         name: apache2
         state: restarted
-#### Create A Notebook .yml file & save it
+
+
+
+##### Create A Notebook .yml file & save it
 write down .yml file according to the above given structure
 
-#### Add commit,and push changes to github
+##### Add commit,and push changes to github
 used to add git add playbook.yml(Nmae of Playbook).
 commit it by using  git commit -m"change commit"
 Push the code to github git oush origin main
