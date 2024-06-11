@@ -12,10 +12,11 @@
     - name: Deploy Apache Docker Container
       apt:
       docker_container:
-        name: apache_container
-        image: httpd
-        state: started
-        ports: - "80:80"
+         name: apache_container
+         image: httpd
+         state: started
+         ports: 
+           - "80:80"
         
   handlers:
     - name: Restart Apache
