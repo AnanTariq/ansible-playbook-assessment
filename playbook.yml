@@ -1,6 +1,7 @@
 ---
 - name: Example Playbook
-  hosts: all
+  hosts: 192.168.10.7
+  become: true
   tasks:
     - name: Ensure Apache is installed
       apt:
