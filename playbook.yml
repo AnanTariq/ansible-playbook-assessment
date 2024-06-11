@@ -10,7 +10,6 @@
         - Restart Apache
 
     - name: Deploy Apache Docker Container
-      apt:
       docker_container:
          name: apache_container
          image: httpd
